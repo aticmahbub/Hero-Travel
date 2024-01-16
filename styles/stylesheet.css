@@ -17,7 +17,11 @@
     font-size: 1rem;
     font-weight: 400;
 }
-
+.orange-text{
+    color: #FF5400;
+font-size: 2.25rem;
+font-weight: 800;
+}
 .btn-primary {
     border-radius: 8px;
     background: #FF5400;
@@ -72,6 +76,12 @@ nav li {
     font-size: 1.125rem;
     font-weight: 400;
 }
+ a:hover {
+    text-decoration: none;
+    color: #FF5400;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
 
 .site-title {
     display: flex;
@@ -118,12 +128,22 @@ padding: 16px;
 }
 
 .find-now input,
-.find-now select,
-.find-now .btn-find-now {
+.find-now select
+{
     border-radius: 8px;
     background: #FFF;
     padding: 16px;
     border: 0;
+}
+.btn-find-now{
+    padding: 16px 35px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+background: #FF5400;
+border: 0;
+
 }
 
 /* Popular */
@@ -208,15 +228,16 @@ width: 50%;
 }
 
 .news-content{
+    width: 474px;
+height: 422px;
+flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    width: 40%;
-    padding: 40px;
+    padding: 0 40px;
     
 
 }
 .news-img{
-    width: 60%;
 }
 .news-content .btn-primary{
     width: 100%;
@@ -232,6 +253,32 @@ background: rgba(19, 19, 24, 0.05);
 border: 0;
 width: 90%;
 margin-bottom: 16px;}
+
+.rotate{
+    width: 324px;
+height: 120px;
+    display: inline-block;
+    border-radius: 16px;
+background: #FF5400;
+padding: 30px;
+text-align: center;
+transform: rotate(-19.628deg);
+position: relative;
+left: 270px;
+bottom: 240px;
+}
+.rotate-text-2{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+}
+.rotate-text-1{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+
 /* Footer styles */
 footer{
     display: flex;
@@ -306,7 +353,38 @@ height: 176px;
     footer{
         padding: 32px 44px;
     }
+
+    .news-content,
     .popular-content{
+        width: 1170px;
+    }
+    .newsletter-section{
+        flex-direction: column;
+    }
+    .news-img img{
+   
         width: 100%;
     }
+
+    .rotate-text-2{color: #FFF;
+        font-size: 21.138px;
+        font-weight: 800;
+    }
+    .rotate-text-1{
+        color: #FFF;
+font-size: 15.854px;
+font-style: normal;
+font-weight: 400;
+    }
+    .rotate{
+        width: 214.023px;
+height: 79.268px;
+transform: rotate(-19.628deg);
+border-radius: 10.569px;
+background: #FF5400;
+position: relative;
+left: 50px;
+bottom: 180px;    
+}
+
 }
