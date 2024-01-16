@@ -12,6 +12,23 @@
     line-height: normal;
 }
 
+.text-secondary {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    padding: 14px 24px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -58,4 +75,42 @@ ul a {
 .site-title img {
     width: 48px;
     height: 56.008px;
+}
+
+/* Banner */
+.banner-section {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-heading {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 0 247px;
+}
+
+.find-now {
+    margin-top: 64px;
+    display: flex;
+    gap: 24px;
+}
+
+.find-now input,
+.find-now select,
+.find-now .btn-find-now
+{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+    border: 0;
 }
