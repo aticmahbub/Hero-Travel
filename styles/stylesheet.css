@@ -1,0 +1,11 @@
+/* Fonts */
+*{font-family: 'Mulish', sans-serif;}
+
+/* Shared styles */
+.text-heading{
+color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+line-height: normal;
+}
