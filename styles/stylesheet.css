@@ -66,7 +66,7 @@ nav li {
     list-style: none;
 }
 
-ul a {
+ a {
     text-decoration: none;
     color: #424247;
     font-size: 1.125rem;
@@ -78,7 +78,7 @@ ul a {
     gap: 2px;
     align-items: center
 }
-
+.footer-title img,
 .site-title img {
     width: 48px;
     height: 56.008px;
@@ -170,6 +170,47 @@ padding: 16px;
     gap: 20px;
 }
 
+/* Card styles */
+#blue-card{
+
+    background: rgba(41, 206, 246, 0.05);
+    }
+.card{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 32px;
+width: 573px;
+height: 284px;
+}
+.choose-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.card-row-1{
+    display: flex;
+    gap: 24px;
+}
+/* Footer styles */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 110px 335px;
+    background: rgba(19, 19, 24, 0.05);
+text-align: center;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+}
+hr{
+    width: 872px;
+    height: 1px;
+}
 
 .hide {
     display: none;
