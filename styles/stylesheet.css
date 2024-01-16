@@ -1,11 +1,61 @@
 /* Fonts */
-*{font-family: 'Mulish', sans-serif;}
+* {
+    font-family: 'Mulish', sans-serif;
+}
 
 /* Shared styles */
-.text-heading{
-color: #131318;
-font-family: Mulish;
-font-size: 36px;
-font-weight: 800;
-line-height: normal;
+.text-heading {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 135px;
+
+}
+
+/* Nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+}
+
+nav li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.site-title {
+    display: flex;
+    gap: 2px;
+    align-items: center
+}
+
+.site-title img {
+    width: 48px;
+    height: 56.008px;
 }
