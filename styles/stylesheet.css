@@ -13,8 +13,7 @@
 }
 
 .text-secondary {
-    color: #FFF;
-    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.70);    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -35,6 +34,7 @@ body {
     padding: 0px 135px;
 
 }
+/* Main styles */
 
 /* Nav styles */
 nav {
@@ -113,4 +113,10 @@ ul a {
     background: #FFF;
     padding: 16px;
     border: 0;
+}
+/* Popular */
+.popular-section{
+    margin-top: 100px;
+    display: flex;
+    gap: 53px;
 }
