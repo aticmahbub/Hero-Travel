@@ -180,8 +180,7 @@ padding: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 padding: 32px;
-width: 573px;
-height: 284px;
+width: 50%;
 }
 .choose-cards-container{
     display: flex;
@@ -208,7 +207,8 @@ text-align: center;
     align-items: center;
 }
 hr{
-    width: 872px;
+ 
+align-self: center;    width: 90%;
     height: 1px;
 }
 
@@ -242,6 +242,7 @@ font-weight: 800;
 .banner-section {
     padding: 32px 24px;
 }
+.card-row-1,
 .destination-img-container,
 .row-1,
 .row-2,
@@ -259,4 +260,12 @@ font-weight: 800;
     width: 335px;
 height: 176px;
 }
+.card{
+    padding: 32px;
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;}
+    footer{
+        padding: 32px 44px;
+    }
 }
