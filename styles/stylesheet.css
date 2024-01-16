@@ -134,6 +134,7 @@ padding: 16px;
 }
 
 .popular-img img{
+    width: 100%;
 }
 
 /* Destination section */
@@ -190,7 +191,7 @@ padding: 16px;
 font-size: .875rem;
 font-weight: 400;
 }
-
+.destination-section,
 .banner-heading{
     margin-top: 0px;
     color: #FFF;
@@ -200,12 +201,21 @@ font-weight: 800;
 .banner-section {
     padding: 32px 24px;
 }
+.destination-img-container,
+.row-1,
+.row-2,
+.row-3,
 .popular-section,
 .find-now{
     margin-top: 24px;
     flex-direction: column;
 }
 .popular-img img{
-    width: 100%;
+    width: 335px;
+    height: 176px;
+}
+.dimgs{
+    width: 335px;
+height: 176px;
 }
 }
