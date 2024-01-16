@@ -133,6 +133,9 @@ padding: 16px;
     gap: 53px;
 }
 
+.popular-img img{
+}
+
 /* Destination section */
 .destination-section {
     text-align: center;
@@ -179,13 +182,17 @@ padding: 16px;
  header{
     padding: 0 20px;
  }
+ main{
+    margin: 10px 15px;
+}
 .text-secondary{
-    color: #FFF;
-text-align: center;
+    color: rgba(19, 19, 24, 0.70);
 font-size: .875rem;
 font-weight: 400;
 }
+
 .banner-heading{
+    margin-top: 0px;
     color: #FFF;
 font-size: 22px;
 font-weight: 800;
@@ -193,7 +200,12 @@ font-weight: 800;
 .banner-section {
     padding: 32px 24px;
 }
+.popular-section,
 .find-now{
+    margin-top: 24px;
     flex-direction: column;
+}
+.popular-img img{
+    width: 100%;
 }
 }
