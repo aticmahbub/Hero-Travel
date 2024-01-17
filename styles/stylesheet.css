@@ -255,7 +255,43 @@ nav ul li a:hover {
     display: flex;
     gap: 24px;
 }
+/* Deals styles */
+.deals-section{
+    margin-bottom: 100px;
+    border-radius: 16px;
 
+    padding: 56px 56px 55px 535px;
+height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+.deals-card{
+height: 389px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+   
+}
+.deal-info{
+    display: flex;
+    gap: 24px;
+}
+.text-price{color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.deal-info-text{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+.deal-infos{
+    display: flex;
+    align-items: center;
+}
 /* Newsletter */
 .newsletter-section {
     display: flex;
