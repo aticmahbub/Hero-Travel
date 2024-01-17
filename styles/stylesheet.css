@@ -36,9 +36,10 @@
     font-weight: 800;
 }
 
-.fa-brands fa-twitter{
+.fa-brands fa-twitter {
     color: #424247;
 }
+
 /* header {
     padding: 0px 140px;
 } */
@@ -77,6 +78,7 @@ nav ul {
 nav ul li {
     list-style: none;
 }
+
 .social-icons a,
 nav ul li a {
     text-decoration: none;
@@ -184,7 +186,7 @@ nav ul li a:hover {
     width: 50%;
 }
 
-.popular-img > img {
+.popular-img>img {
     width: 100%;
 }
 
@@ -226,9 +228,10 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.choose-section{
+.choose-section {
     margin: 100px 0;
 }
+
 /* Card styles */
 #blue-card {
 
@@ -255,42 +258,65 @@ nav ul li a:hover {
     display: flex;
     gap: 24px;
 }
+
 /* Deals styles */
-.deals-section{
+.deals-section {
     margin-bottom: 100px;
     border-radius: 16px;
 
     padding: 56px 56px 55px 535px;
-height: 500px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
 }
-.deals-card{
-height: 389px;
+
+.deals-card {
+    height: 389px;
     padding: 50px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
-   
+
 }
-.deal-info{
+
+.deal-info {
     display: flex;
     gap: 24px;
 }
-.text-price{color: #FF5400;
+
+.text-price {
+    color: #FF5400;
     font-size: 20px;
     font-weight: 800;
 }
-.deal-info-text{
+
+.deal-info-text {
     color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.deal-infos{
+
+.deal-infos {
     display: flex;
     align-items: center;
+}
+/* Video section */
+.video-section{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+.text-video{
+    text-align: left;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */   
+}
+.video-video{
+    
 }
 /* Newsletter */
 .newsletter-section {
@@ -310,8 +336,8 @@ font-weight: 400;
 }
 
 
-.btn-primary {
-}
+.btn-primary {}
+
 textarea,
 .news-content input[type="text"],
 .news-content input[type="email"] {
@@ -388,9 +414,12 @@ hr {
         max-width: 375px;
         margin: 0 auto;
     }
+
     header,
-main {
-    margin: 0 auto;}
+    main {
+        margin: 0 auto;
+    }
+
     nav ul {
         display: none;
 
@@ -402,7 +431,7 @@ main {
 
     }
 
-  
+
 
     .text-secondary {
         color: rgba(19, 19, 24, 0.70);
@@ -460,13 +489,13 @@ main {
     .newsletter-section {
         flex-direction: column;
     }
-#new-img img{
-    border-radius: 16px;
-    border: 1px solid #FF5400;
-}
-    .news-img img {
 
+    #new-img img {
+        border-radius: 16px;
+        border: 1px solid #FF5400;
     }
+
+    .news-img img {}
 
     .rotate-text-2 {
         color: #FFF;
@@ -508,7 +537,8 @@ main {
         width: 28px;
         height: 38px;
     }
-#nbt{
-    width: 100%;
-}
+
+    #nbt {
+        width: 100%;
+    }
 }
